@@ -41,3 +41,6 @@ customer_dq_df = (
 customer_dq_df.write.mode("overwrite").parquet(
     "/mnt/data/banking/dq/customer"
 )
+
+
+# Banking customer data quality validation
